@@ -1,0 +1,40 @@
+# Nmap 7.98 scan initiated Mon Jun 29 08:06:46 2026 as: /usr/lib/nmap/nmap -sS -oN scan_results.txt [MASKED-IP]/24
+Nmap scan report for [MASKED-IP]
+Host is up (0.00092s latency).
+Not shown: 986 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+135/tcp   open   msrpc
+139/tcp   open   netbios-ssn
+445/tcp   open   microsoft-ds
+902/tcp   open   iss-realsecure
+912/tcp   open   apex-mesh
+2869/tcp  closed icslap
+3306/tcp  open   mysql
+54045/tcp closed unknown
+54328/tcp closed unknown
+60020/tcp closed unknown
+60443/tcp closed unknown
+61532/tcp closed unknown
+61900/tcp closed unknown
+62078/tcp closed iphone-sync
+MAC Address: 00:50:56:C0:00:08 (VMware)
+
+Nmap scan report for [MASKED-IP]
+Host is up (0.00028s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 00:50:56:E9:E2:18 (VMware)
+
+Nmap scan report for [MASKED-IP]
+Host is up (0.00057s latency).
+All 1000 scanned ports on [MASKED-IP] are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:50:56:F7:8C:48 (VMware)
+
+Nmap scan report for [MASKED-IP]
+Host is up.
+All 1000 scanned ports on [MASKED-IP] are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+# Nmap done at Mon Jun 29 08:10:18 2026 -- 256 IP addresses (4 hosts up) scanned in 211.93 seconds
